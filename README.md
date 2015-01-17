@@ -7,6 +7,7 @@ by Paul Chiusano and Rúnar Bjarnason.
 ## Exercises
 - [Chapter 2, Getting started](src/chapter02)
 - [Chapter 3, Data structures](src/chapter03)
+- Chapter 4, Error handling
 - [Chapter 5, Strictness and laziness](src/chapter05)
 
 ## Running tests
