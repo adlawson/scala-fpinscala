@@ -5,8 +5,18 @@ Scala](http://www.amazon.co.uk/Functional-Programming-Scala-Paul-Chiusano/dp/161
 by Paul Chiusano and Rúnar Bjarnason.
 
 ## Exercises
-- [Chapter 2, Getting started][chapter-02]
-- [Chapter 3, Data structures][chapter-03]
+- [Chapter 2, Getting started](src/chapter02)
+- [Chapter 3, Data structures](src/chapter03)
 
-[chapter-02]: src/main/scala/com/github/adlawson/fpinscala/chapter02
-[chapter-03]: src/main/scala/com/github/adlawson/fpinscala/chapter03
+## Running tests
+Contributions are accepted via Pull Request, but passing unit tests must be
+included before it will be considered for merge.
+```bash
+$ curl -O https://raw.githubusercontent.com/adlawson/vagrantfiles/master/scala/Vagrantfile
+$ vagrant up
+$ vagrant ssh
+...
+
+$ cd /srv
+$ sbt test
+```
