@@ -1,4 +1,4 @@
-package com.github.adlawson.fpinscala.chapter02
+package com.adlawson.fpinscala.chapter02
 
 object MyModule {
   def fib(n: Int): Int = {

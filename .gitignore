@@ -1,4 +1,4 @@
 *.log
 .vagrant
-target
+target/
 Vagrantfile

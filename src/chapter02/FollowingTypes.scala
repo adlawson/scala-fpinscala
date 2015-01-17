@@ -1,4 +1,4 @@
-package com.github.adlawson.fpinscala.chapter02
+package com.adlawson.fpinscala.chapter02
 
 object FollowingTypes {
   def curry[A,B,C](f: (A, B) => C): A => (B => C) =

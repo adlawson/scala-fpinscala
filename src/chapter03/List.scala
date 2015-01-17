@@ -1,4 +1,4 @@
-package com.github.adlawson.fpinscala.chapter03
+package com.adlawson.fpinscala.chapter03
 
 sealed trait List[+A]
 case object Nil extends List[Nothing]
@@ -26,10 +26,10 @@ object List {
   // types (can be variadic too, as with this `apply`)
   val x = List(1, 2, 3, 4, 5) match {
     case Cons(x, Cons(2, Cons(4, _))) => x
-    case Nil => 42 
+    case Nil => 42
     case Cons(x, Cons(y, Cons(3, Cons(4, _)))) => x + y
     case Cons(h, t) => h + sum(t)
-    case _ => 101 
+    case _ => 101
   }
 
   // --- Going rogue
@@ -76,8 +76,8 @@ object List {
   }
 
   def init[A](as: List[A]): List[A] = as match {
-    case Cons(_, Nil) => Nil
     case Cons(h, t) => Cons(h, init(t)) // Replacing tail of cons is bad times
+    case _ => Nil
   }
 
   def curriedDropWhile[A](as: List[A])(f: A => Boolean): List[A] =

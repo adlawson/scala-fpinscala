@@ -1,4 +1,4 @@
-package com.github.adlawson.fpinscala.chapter02
+package com.adlawson.fpinscala.chapter02
 
 object Polymorphic {
   def isSorted[A](as: Array[A], ordered: (A, A) => Boolean): Boolean = {
