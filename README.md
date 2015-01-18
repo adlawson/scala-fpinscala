@@ -9,6 +9,7 @@ by Paul Chiusano and Rúnar Bjarnason.
 - [Chapter 3, Data structures](src/chapter03)
 - Chapter 4, Error handling
 - [Chapter 5, Strictness and laziness](src/chapter05)
+- [Chapter 6, Functional state](src/chapter06)
 
 ## Running tests
 ```bash
