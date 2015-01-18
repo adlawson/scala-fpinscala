@@ -11,8 +11,6 @@ by Paul Chiusano and Rúnar Bjarnason.
 - [Chapter 5, Strictness and laziness](src/chapter05)
 
 ## Running tests
-Contributions are accepted via Pull Request, but passing unit tests must be
-included before it will be considered for merge.
 ```bash
 $ curl -O https://raw.githubusercontent.com/adlawson/vagrantfiles/master/scala/Vagrantfile
 $ vagrant up
